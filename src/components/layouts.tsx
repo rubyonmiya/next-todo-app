@@ -16,7 +16,7 @@ const Layout = ({ children, ...props }: Props) => {
               <MenuIcon />
             </IconButton>
             <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
-              ecforce shop manager
+              shop manager
             </Typography>
             <Button color='inherit'>Login</Button>
           </Toolbar>

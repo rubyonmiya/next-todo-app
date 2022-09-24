@@ -1,9 +1,5 @@
+import type Shop from '@/types/shop'
 import type { NextApiRequest, NextApiResponse } from 'next'
-
-type Shop = {
-  id: number
-  number: string
-}
 
 const shops: Shop[] = [
   { id: 1, number: 'sample' },
