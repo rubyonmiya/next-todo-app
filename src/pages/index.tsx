@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function TopIndexPage() {
+const TopIndexPage = () => {
   return (
     <div>
       <Link href='/shops'>
@@ -9,3 +9,4 @@ export default function TopIndexPage() {
     </div>
   )
 }
+export default TopIndexPage
