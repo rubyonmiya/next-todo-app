@@ -1,11 +1,10 @@
 import Link from 'next/link'
 
-export default function IndexPage() {
+export default function TopIndexPage() {
   return (
     <div>
-      Hello World.{' '}
-      <Link href='/about'>
-        <a>About</a>
+      <Link href='/shops'>
+        <a>Shops Index</a>
       </Link>
     </div>
   )
