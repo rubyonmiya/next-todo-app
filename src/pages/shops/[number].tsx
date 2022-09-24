@@ -1,5 +1,7 @@
+import Layout from '../../components/layouts'
+
 const ShopsShowPage = () => {
-  return <div>Shops Show</div>
+  return <Layout>Shops Show</Layout>
 }
 
 export default ShopsShowPage

@@ -1,12 +1,13 @@
 import Link from 'next/link'
+import Layout from '../components/layouts'
 
 const TopIndexPage = () => {
   return (
-    <div>
+    <Layout>
       <Link href='/shops'>
         <a>Shops Index</a>
       </Link>
-    </div>
+    </Layout>
   )
 }
 export default TopIndexPage
