@@ -1,4 +1,4 @@
-import Layout from '../../components/layouts'
+import Layout from '@/components/layouts'
 
 const ShopsShowPage = () => {
   return <Layout>Shops Show</Layout>

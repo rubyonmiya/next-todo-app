@@ -1,5 +1,5 @@
+import Layout from '@/components/layouts'
 import Link from 'next/link'
-import Layout from '../components/layouts'
 
 const TopIndexPage = () => {
   return (
